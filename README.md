@@ -11,19 +11,19 @@ Simple soap is a simple abstraction of how every soap request should be
 Yarn:
 
 ```sh
-yarn add simple-soap
+yarn add simple-soap-js
 ```
 
 Npm:
 
 ```sh
-npm install simple-soap --save
+npm install simple-soap-js --save
 ```
 
 ## :tada: Usage example
 
 ```javascript
-import Soap from 'simple-soap';
+import Soap from 'simple-soap-js';
 
 const soap = new Soap('https://www.starbucks.com')
 
